@@ -1,0 +1,273 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Home Page */
+.container-fluid {
+  /* background-color:#1E5128; */
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.sloganlm {
+  align-items: center;
+}
+
+.home-page {
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.feedly {
+  font-size: 2rem;
+}
+
+.first-page {
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  /* background-color: #D8E9A8; */
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.sloganlm {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10rem 25rem;
+}
+.slogan {
+  font-size: 3rem;
+}
+.items-list {
+  /* background-image: url(../Images/bg_pink.jpg); */
+  /* background-color: #1E5128; */
+  background-size: cover;
+  padding: 6rem 10rem 15rem 10rem;
+}
+.about-us {
+  /* background-image: url(../Images/bg-pinkk.jpg); */
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+.abtusTitle {
+  padding: 2rem;
+  text-align: center;
+}
+.image-1 {
+  width: 70%;
+  position: relative;
+  left: 5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 25px;
+}
+.text {
+  font-family: Montserrat, bold, sans-serif;
+  width: 30%;
+  position: relative;
+  left: 40rem;
+}
+.our-focus {
+  font-family: Montserrat, sans-serif;
+  width: 30%;
+  position: relative;
+  left: 10rem;
+  bottom: 3rem;
+}
+.process-overview {
+  /* background-image: url(../Images/backgroud_avocado.jpg); */
+  padding: 6rem 10rem 15rem 10rem;
+  background-size: cover;
+}
+@media (max-width: 1180px) {
+  .sloganlm {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 4rem;
+  }
+  .image-1 {
+    width: 250px;
+    height: 160px;
+  }
+  .giving-out {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .text {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    left: 1rem;
+    /* padding-left: 2rem; */
+  }
+  .our-focus {
+    padding-top: 3rem;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    text-align: left;
+    left: 1rem;
+  }
+  .feedb {
+    position: relative;
+    right: 5rem;
+    text-align: center;
+  }
+}
+/* 
+.feedback {
+  text-align: center;
+  padding-left: 18rem;
+} */
+.feedb {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.idkfbfield {
+  margin-left: 0rem;
+  text-align: left;
+}
+/*    Login Page  */
+
+.loginpage {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#restaurantlogin {
+  position: relative;
+  bottom: 11rem;
+}
+.allign {
+  width: 30%;
+  margin: auto;
+}
+
+/*     Registration Page     */
+.registrationpage {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  text-align: center;
+}
+.restReg {
+  position: relative;
+  bottom: 40rem;
+}
+.all_reg {
+  width: 40%;
+  padding-left: 100px;
+  margin: auto;
+  text-align: justify;
+}
+
+/*        NGO Page */
+.ngo {
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/*   NGO Profile Page  */
+.nprofile {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+#details {
+  position: relative;
+  bottom: 5rem;
+  /*border: 2px solid black; */
+  width: 30%;
+}
+/*   Restaurant Page     */
+.restNavbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.Rest {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+/*   Restaurant Profile    */
+.head {
+  padding-left: 0;
+  padding-right: 0;
+}
+.rprofile {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: contain;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.restDeets {
+  align-items: center;
+}
+
+/*    Admin Login   */
+.Adminlogin {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  margin: 0;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+/*   Checking   */
+.checking {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  margin: 0;
+  padding-top: 7rem;
+  padding-bottom: 16rem;
+  text-align: center;
+}
+/*   Approval  Pages  */
+.approval {
+  /* background-image: url(../Images/OGbg.jpg); */
+  background-image: url(../Images/food2.jpg);
+  background-attachment: fixed;
+  background-color: #d8e9a8;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+.approvalNavbar {
+  width: 100%;
+}
